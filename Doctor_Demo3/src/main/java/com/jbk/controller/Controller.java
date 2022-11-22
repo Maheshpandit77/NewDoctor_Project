@@ -35,7 +35,7 @@ public ResponseEntity<List<Doctor>>getAllDoctors(){
 	return new ResponseEntity<List<Doctor>>(list,HttpStatus.OK);
 	
 }
-
+//mahesh
 
 
 
