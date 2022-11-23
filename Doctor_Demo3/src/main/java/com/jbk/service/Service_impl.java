@@ -20,20 +20,22 @@ public class Service_impl implements doctorService {
 
 	@Override
 	public List<Doctor> getAllDoctors() {
-		// TODO Auto-generated method stub
-		return null;
+    List <Doctor>list=dao.getAllDoctors();
+		
+		return list;
 	}
 
 	@Override
 	public Doctor getDoctorById(Integer doctorId) {
-		// TODO Auto-generated method stub
-		return null;
+		Doctor doctor=dao.getDoctorById(doctorId);
+		
+		return doctor;
 	}
 
 	@Override
 	public Doctor UpdateDoctor(Doctor doctor) {
-		// TODO Auto-generated method stub
-		return null;
+	Doctor dr=	dao.UpdateDoctor(doctor);
+		return dr;
 	}
 
 	@Override
