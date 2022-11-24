@@ -109,7 +109,7 @@ private SessionFactory sf;
 
 	@Override
 	public boolean deletestudentById(Integer doctorId) {
-		// TODO Auto-generated method stub
+		
 		return false;
 	}
 

@@ -40,8 +40,8 @@ public class Service_impl implements doctorService {
 
 	@Override
 	public boolean deletestudentById(Integer doctorId) {
-		// TODO Auto-generated method stub
-		return false;
+		boolean dr = dao.deletestudentById(doctorId);
+		return dr;
 	}
 
 }
